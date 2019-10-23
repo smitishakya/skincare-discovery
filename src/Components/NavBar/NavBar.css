@@ -1,0 +1,36 @@
+.nav-link{
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color:  #ae5a09;
+    color: white;
+    padding: 5px 7px;
+    display: inline-block;
+    margin: 5px;
+}
+.nav-link:hover{
+    background-color: #fcdc8f;
+}
+
+.Navigation{
+   
+    padding: 5px;
+    margin:2px;
+}
+
+
+@media screen and (min-width: 730px){
+    .nav-link{
+        font-size: 28px;
+        margin: 15px;
+        padding: 5px 15px;
+    }
+    .Navigation{
+   
+        padding: 10px;
+        
+    }
+
+  }
+  
+  

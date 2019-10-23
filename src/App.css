@@ -1,22 +1,31 @@
-.App {
+*{
+  font-family: lato, sans-serif;
+}
+body {
   text-align: center;
+  background: url(http://www.graphicartsunit.com/images/noise2.png);
+  line-height: 1.5;
 }
 
-.App-logo {
-  height: 40vmin;
+.title{
+  margin: 0;
+ 
+  color: #9B224A;
+  font-weight: bold;
+  font-size: 10vw;
+  text-shadow: 2px 2px paleturquoise;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media screen and (min-width: 730px){
+  .title{
+    font-size: 7vw;
+  }
 }
 
-.App-link {
-  color: #09d3ac;
+@media screen and (min-width: 1025px){
+  .title{
+    font-size: 5vw;
+  }
 }
+
+

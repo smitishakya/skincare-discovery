@@ -1,0 +1,134 @@
+.btn{ 
+  font-weight: bold; 
+  font-size: 20px;
+  border-radius: 8px;
+  padding:  12px 28px;
+  margin: 5px;
+  border: 2px solid black;
+  width: 100%;
+}
+
+
+.step1box{
+  background-color: #F7CAC9;
+}
+.step2box{
+  background-color: #FF6F61;
+}
+.step3box{
+  background-color: #9487b6;
+}
+.step4box{
+  background-color: #7FCDCD;
+}
+.step5box{
+  background-color: #DFCFBE;
+}
+
+.box{
+  list-style-type: none;
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+ }
+.item-box{
+  border-radius: 4px;
+  margin: 10px 0px;
+  max-width: 400px;
+  background-color: white;
+  padding: 10px 15px;;
+}
+.step1item{
+  border: 2px solid #D65076;
+}
+.step2item{
+  border: 2px solid #E15D44;
+}
+.step3item{
+  border: 2px solid #9487b6;
+}
+.step4item{
+  border: 2px solid #45B8AC;
+}
+.step5item{
+  border: 2px solid #9F9C99;
+}
+
+
+.price{
+
+  font-weight: bold;
+}
+.detailshead{
+  text-align: left;
+  font-weight: bold;
+
+}
+.details{
+  text-align: center;
+  
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+.SelectBar select{
+  font-size: 18px;
+  margin: 10px;
+  margin-left: 28px;
+  border-radius: 8px;
+  padding: 10px 5px;
+  background-color: 	#FFF8DC;
+  color: black;
+  border: 2px solid black;
+ }
+
+
+@media screen and (min-width: 730px){
+  .SelectBar select { 
+    font-size: 24px;
+  }
+  .btn{    
+    font-size: 28px; 
+    padding:  15px 30px;
+   
+  
+  }
+  .box{
+    font-size: 28px;
+    margin: 20px;
+    padding: 5px;
+   }
+  .item-box{
+    margin: 20px 5px;
+    padding: 10px 20px;
+  
+  }
+  
+
+}
+
+@media screen and (min-width: 1026px){
+
+  .btn{
+    padding:12px 28px;
+    
+  }
+  .box{
+
+    margin: 10px;
+    padding: 5px;
+    
+   }
+  .item-box{
+    font-size: 20px;
+    border-radius: 4px;
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+  }
+  
+}
