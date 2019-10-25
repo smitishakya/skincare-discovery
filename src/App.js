@@ -107,7 +107,7 @@ class App extends React.Component {
                             )}
                         />
                         <Route path="/review" component={Review} />
-                        <Route path="/help" component={SkinTypeFind} />
+                        <Route path="/" component={SkinTypeFind} />
 
                         <Route render={() => <h2>Page Not Found</h2>} />
                     </Switch>

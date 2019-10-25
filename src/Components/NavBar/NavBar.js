@@ -11,7 +11,7 @@ export default function NavBar(props) {
             <Link to="/skintype/dry" className="nav-link">Dry Skin</Link>
             <Link to="/skintype/normal" className="nav-link">Normal Skin</Link>
            
-            <Link to="/help" className="nav-link">Find my skin type?</Link>
+            <Link to="/" className="nav-link">Find my skin type?</Link>
             <Link to="/review" className="nav-link">Reviews</Link>
            
         </div>

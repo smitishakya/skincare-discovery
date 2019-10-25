@@ -1,6 +1,9 @@
 # Skincare Discovery
-A application that lets you build a 5 Steps Skin Care Routine based on your skin type.
-I created this application for probelm?>
+
+## Purpose
+
+Skincare Discovery was created to solve the issue of most people using the wrong products on their skin. 
+With this application it lets your first find out your skintype and lets you build a 5 Steps Skin Care Routine based on your skin type. Also made for all user to have a easy experience in finding the right product for their skin within their price point. 
 
 ## User Stories
 
@@ -11,8 +14,7 @@ I created this application for probelm?>
 
 
 - Technologies:
- Client: HTML, JS, CSS3, React, React-Router-Dom, Node.js, Enzyme, Chai
- Deployment: Zeit
+  HTML, JS, CSS3, Zeit
 
 [Live Link](hhtps://google.com/)
 
