@@ -20,7 +20,8 @@ With this application it lets your first find out your skintype and lets you bui
 4. Review section to add your best skin care products that worked for you to help us provide the best products in the market.
 
 
-- Technologies:
+## Technologies
+
   HTML, JS, CSS3, Zeit
 
 [Zeit Link](https://skincare-discovery.smitishk12.now.sh/)
