@@ -1,0 +1,99 @@
+.review-form{
+  border: 2px solid rgb(142, 56, 56);
+  border-radius: 4px;
+  background-color: white;
+  font-size: 20px;
+  margin: 10px;
+  padding: 5px;
+}
+.head{
+  color:	rgb(188, 63, 44);
+  font-weight: bold;
+}
+
+.quote{
+  font-style: italic;
+  color: rgb(164, 54, 46);
+}
+.review-form .field{
+  width: 80%;
+  border: 1px solid rgb(41, 43, 44);
+  border-radius: 4px;
+  font-size: 16px;
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+.field:hover{
+  border: 2px solid rgb(50, 52, 57);
+}
+.textfield{
+  height: 150px;
+}
+.reviewbtn{
+  background-color:rgb(186, 51, 41);
+  color: white;
+  border-radius: 4px;
+  width: 30%;
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+.rating{
+  margin:10px;
+}
+.reviewbtn:hover{
+  background-color:rgb(205, 119, 117);
+}
+
+.review-box{
+    list-style-type: none;
+    margin: 20px;
+    padding: 5px;
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.review-item-box{
+  border-radius: 4px;
+  margin: 10px 10px;
+  max-width: 400px;
+  border: 2px solid rgb(181, 78, 78);
+  background-color: rgb(233, 223, 223);
+  padding: 10px 15px;;
+}
+
+
+@media screen and (min-width: 730px){
+  .head{
+    font-size: 28px;
+  }
+  
+  .quote{
+    font-size: 25px;
+  }
+
+  .review-form{
+    margin: 20px;
+    padding: 15px;
+  }
+  .review-form .field{
+    font-size: 25px;
+    margin: 20px;
+    padding: 10px;
+  }
+  .rating{
+    margin:20px;
+  }
+  .reviewbtn{
+    width: 20%;
+    font-size: 25px;
+    margin: 20px;
+    padding: 10px;
+  }
+}

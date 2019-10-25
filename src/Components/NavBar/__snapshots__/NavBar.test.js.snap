@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+Array [
+  " ",
+  <div
+    className="Navigation"
+    role="navigation"
+  >
+    <a
+      className="nav-link"
+      href="/skintype/combination"
+      onClick={[Function]}
+    >
+      Combination Skin
+    </a>
+    <a
+      className="nav-link"
+      href="/skintype/oily"
+      onClick={[Function]}
+    >
+      Oily Skin
+    </a>
+    <a
+      className="nav-link"
+      href="/skintype/dry"
+      onClick={[Function]}
+    >
+      Dry Skin
+    </a>
+    <a
+      className="nav-link"
+      href="/skintype/normal"
+      onClick={[Function]}
+    >
+      Normal Skin
+    </a>
+    <a
+      className="nav-link"
+      href="/help"
+      onClick={[Function]}
+    >
+      Find my skin type?
+    </a>
+    <a
+      className="nav-link"
+      href="/review"
+      onClick={[Function]}
+    >
+      Reviews
+    </a>
+  </div>,
+]
+`;

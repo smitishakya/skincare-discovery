@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div
+  aria-live="polite"
+  className="skintypefind"
+>
+  <p
+    className="skintypestep"
+  >
+    <strong>
+      Step 1: 
+    </strong>
+    Remove your makeup and Face your wash completely before going to bed at night. Make sure you do not apply any product.
+  </p>
+  <p
+    className="skintypestep"
+  >
+    <strong>
+      Step 2: 
+    </strong>
+    Examine the pictures to determine your skin type
+  </p>
+  <ul
+    className="skintypebox"
+  />
+</div>
+`;

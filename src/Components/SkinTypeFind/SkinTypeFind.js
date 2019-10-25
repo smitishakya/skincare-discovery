@@ -13,7 +13,7 @@ class SkinTypeFind extends React.Component {
     }
 
     componentDidMount() {
-        fetch("http://localhost:8000/skintype", {
+        fetch("https://glacial-meadow-87719.herokuapp.com/skintype", {
             method: "GET"
         })
             .then(res => res.json())
@@ -38,7 +38,7 @@ class SkinTypeFind extends React.Component {
 
                     {this.state.types.map((product, index) => (
                         <li className="skintype-item-box" key={index}>
-                            <img alt="products" src={`/skintypeimages/${product.image}`} />
+                            <img  className="item-box-img" alt="products" src={`/skintypeimages/${product.image}`} />
                             <h1>{product.skintype}</h1>
                             <p>{product.details}</p>
                         </li>

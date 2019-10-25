@@ -6,6 +6,7 @@
   margin: 5px;
   border: 2px solid black;
   width: 100%;
+  text-decoration: none;
 }
 
 
@@ -71,7 +72,7 @@
   
 }
 
-img{
+.item-box-img{
   width: 100%;
   height: auto;
 }
@@ -98,7 +99,7 @@ img{
   
   }
   .box{
-    font-size: 28px;
+    font-size: 25px;
     margin: 20px;
     padding: 5px;
    }

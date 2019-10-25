@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<main
+  className="skinCareRoutine"
+>
+  <div
+    className="SelectBar"
+  >
+    <select
+      aria-label="Select"
+      onChange={[Function]}
+    >
+      <option
+        value="0"
+      >
+        Rating:
+      </option>
+      <option
+        value="5"
+      >
+        5
+      </option>
+      <option
+        value="4"
+      >
+        4
+      </option>
+      <option
+        value="3"
+      >
+        3
+      </option>
+      <option
+        value="2"
+      >
+        2
+      </option>
+      <option
+        value="1"
+      >
+        1
+      </option>
+    </select>
+    <select
+      aria-label="Select"
+      onChange={[Function]}
+    >
+      <option
+        value=""
+      >
+        Range:
+      </option>
+      <option
+        value="$$$"
+      >
+        $$$
+      </option>
+      <option
+        value="$$"
+      >
+        $$
+      </option>
+      <option
+        value="$"
+      >
+        $
+      </option>
+    </select>
+  </div>
+  <button
+    className="step1box btn"
+    onClick={[Function]}
+  >
+    Step 1: Cleanse
+  </button>
+  <button
+    className="step2box btn"
+    onClick={[Function]}
+  >
+    Step 2: Treat
+  </button>
+  <button
+    className="step3box btn"
+    onClick={[Function]}
+  >
+    Step 3: Tone
+  </button>
+  <button
+    className="step4box btn"
+    onClick={[Function]}
+  >
+    Step 4: Nourish
+  </button>
+  <button
+    className="step5box btn"
+    onClick={[Function]}
+  >
+    Step 5: Hydrate
+  </button>
+</main>
+`;

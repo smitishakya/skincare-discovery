@@ -81,8 +81,10 @@ export default function SkinCareRoutine(props) {
                                         currency: "USD"
                                     }).format(product.originalprice)}{" "}
                                 </p>
+                                <a target="_blank" rel="noopener noreferrer"href={product.url} className="btn">Buy Here</a>
                                 <p className="detailshead">Details:</p>
                                 <p className="details">{product.details}</p>
+
 
                             </li>
                         ))}
@@ -118,6 +120,7 @@ export default function SkinCareRoutine(props) {
                                         currency: "USD"
                                     }).format(product.originalprice)}{" "}
                                 </p>
+                                <a target="_blank" rel="noopener noreferrer"href={product.url} className="btn">Buy Here</a>
                                 <p className="detailshead">Details:</p>
                                 <p className="details">{product.details}</p>
                             </li>
@@ -154,6 +157,7 @@ export default function SkinCareRoutine(props) {
                                         currency: "USD"
                                     }).format(product.originalprice)}{" "}
                                 </p>
+                                <a target="_blank" rel="noopener noreferrer"href={product.url} className="btn">Buy Here</a>
                                 <p className="detailshead">Details:</p>
                                 <p className="details">{product.details}</p>
                             </li>
@@ -190,6 +194,7 @@ export default function SkinCareRoutine(props) {
                                         currency: "USD"
                                     }).format(product.originalprice)}{" "}
                                 </p>
+                                <a target="_blank" rel="noopener noreferrer"href={product.url} className="btn">Buy Here</a>
                                 <p className="detailshead">Details:</p>
                                 <p className="details">{product.details}</p>
                             </li>
@@ -226,6 +231,7 @@ export default function SkinCareRoutine(props) {
                                         currency: "USD"
                                     }).format(product.originalprice)}{" "}
                                 </p>
+                                <a target="_blank" rel="noopener noreferrer"href={product.url} className="btn">Buy Here</a>
                                 <p className="detailshead">Details:</p>
                                 <p className="details">{product.details}</p>
                             </li>

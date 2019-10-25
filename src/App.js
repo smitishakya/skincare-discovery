@@ -4,6 +4,8 @@ import "./App.css";
 import SkinCareRoutine from "./Components/SkinCareRoutine/SkinCareRoutine";
 import SkinTypeFind from "./Components/SkinTypeFind/SkinTypeFind";
 import NavBar from "./Components/NavBar/NavBar";
+import Review from"./Components/Review/Review";
+
 
 
 class App extends React.Component {
@@ -22,7 +24,7 @@ class App extends React.Component {
     }
 
     componentDidMount() {
-        fetch("http://localhost:8000/skincare", {
+        fetch("https://glacial-meadow-87719.herokuapp.com/skincare", {
             method: "GET"
         })
             .then(res => res.json())
@@ -104,6 +106,7 @@ class App extends React.Component {
                                 />
                             )}
                         />
+                        <Route path="/review" component={Review} />
                         <Route path="/help" component={SkinTypeFind} />
 
                         <Route render={() => <h2>Page Not Found</h2>} />
