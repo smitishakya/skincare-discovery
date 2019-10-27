@@ -22,7 +22,7 @@ With this application it lets your first find out your skintype and lets you bui
 
 ## Technologies
 
-  HTML, JS, CSS3, Zeit
+React, Zeit
 
 [Zeit Link](https://skincare-discovery.smitishk12.now.sh/)
 
