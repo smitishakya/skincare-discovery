@@ -23,7 +23,8 @@ With this application it lets your first find out your skintype and lets you bui
 ## Technologies
 
 - React
-- Zeit
+- CSS
+- Zeit 
 
 [Zeit Link](https://skincare-discovery.smitishk12.now.sh/)
 
